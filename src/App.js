@@ -1,9 +1,17 @@
+import TextAnimations from "./Animations/TextAnimations";
+import MainHeader from "./MainPageComponents/Header";
+import MainBody from "./MainPageComponents/Body";
 
 
-function App() {
+function MainPage() {
   return (
-  <h1>Raqin Shikder</h1>
+    <div>
+      <MainHeader></MainHeader>
+      <TextAnimations></TextAnimations>
+      <MainBody></MainBody>
+      <p>Unless you dont find what you need, in which case you can go to the about section and contact me personally</p>
+    </div>
   );
 }
 
-export default App;
+export default MainPage;
